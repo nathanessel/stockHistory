@@ -1,0 +1,38 @@
+.sidebar {
+	width: 15%;
+	height: 100%;
+	float: left;
+	overflow: hidden;
+	background-color: #343a40;
+	color: white;
+	position: absolute;
+	z-index: 1000;
+  }
+
+.sidebar-items {
+	  padding-top: 10px;
+	  padding-left: 10px
+}
+  
+.title {
+	border-bottom: 1px solid hsla(0, 0%, 100%, 0.3);
+	margin-right: 20px;
+	margin-top: 10px;
+	padding-bottom: 8px;
+	padding-left: 25px;
+}
+
+.title-icon {
+	padding-right: 10px;
+}
+
+.sidebar-items .nav-link {
+	color: white;
+	display: inline-flex;
+}
+
+.sidebar-items .nav-link span {
+	padding-top: 4px;
+	padding-left: 15px;
+}
+
